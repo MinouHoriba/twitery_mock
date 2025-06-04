@@ -6,6 +6,7 @@ gem 'rails', '~> 7.1.5', '>= 7.1.5.1'
 
 gem 'bootsnap', require: false
 gem 'cssbundling-rails'
+gem 'haml-rails'
 gem 'jsbundling-rails'
 gem 'pg', '~> 1.1'
 gem 'puma', '>= 5.0'
