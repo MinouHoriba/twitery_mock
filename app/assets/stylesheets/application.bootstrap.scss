@@ -1,2 +1,17 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
+
+.custom-navbar {
+  display: block;
+  background-color: #e3f2fd;
+  padding: 8px 0px;
+}
+
+.custom-navbar-brand {
+  text-decoration: none;
+  margin: 0px 16px 8px 0px;
+  padding: 5px 0px;
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 500;
+}

@@ -9,4 +9,9 @@
     = stylesheet_link_tag "application", "data-turbo-track": "reload"
     = javascript_include_tag "application", "data-turbo-track": "reload", type: "module"
   %body
-    = yield
+    %nav.navbar.custom-navbar
+      .container 
+        %h1.custom-navbar-brand
+          %a.text-decoration-none.text-dark Twittery
+    .container
+      = yield
