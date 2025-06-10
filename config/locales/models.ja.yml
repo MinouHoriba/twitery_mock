@@ -2,4 +2,4 @@ ja:
   activerecord:
     attributes:
       post:
-        content: 本文
+        content: ''
