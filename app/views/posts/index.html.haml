@@ -4,8 +4,8 @@
 
 #posts
   - @posts.each do |post|
-    .card.mb-4
+    .card.mb-3
       .card-body
         = render post
-        %p
-          = link_to "Show this post", post
+        %p.mb-0
+          = link_to "詳細", post
